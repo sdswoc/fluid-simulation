@@ -15,14 +15,14 @@
             -0.5,-0.5,0.0,
             0.5,-0.5,0.0, 
          ];
-         
+            
          indices = [0,1,2];
          
          
          var vertex_buffer = gl.createBuffer();
 
          
-         gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer);
+         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFERBUFFER, vertex_buffer);
          
          
          gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
