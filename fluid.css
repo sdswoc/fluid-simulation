@@ -1,0 +1,18 @@
+body {
+    font-family:Helvatica, sans-serif;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu41OWTKhvTC-J4aGrlHS2Fvua_eiI6-nmOWC5tu2B6xrS5KsD&s");
+    background-repeat: no-repeat;
+    background-size:1700px 1000px; 
+    color:rgb(200,200,200);
+}
+
+#wrapper{
+	margin:0 auto;
+    width:100%;
+}
+
+h3 {
+    background-color: rgba(201, 76, 76, 0.3);
+    border: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+}
