@@ -1,4 +1,3 @@
-'use strict';
 
 const canvas = document.getElementsByTagName('canvas')[0];
 canvas.width = canvas.clientWidth;
